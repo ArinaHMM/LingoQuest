@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LingoQuest — Учебное приложение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+    header {
+      background: #ffab2c;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin-top: 1rem;
+    }
+    .button {
+      display: inline-block;
+      margin: 0.5rem 1rem 0 0;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: #ee850d;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background-color: #ff790c;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f3f5;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LingoQuest</h1>
+    <p>Учись, играй и запоминай! 📚</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>О приложении</h2>
+      <p>LingoQuest — это обучающее приложение, созданное для практики иностранных языков. Ты можешь изучать слова, слушать аудио, проходить интерактивные задания и отслеживать прогресс.</p>
+    </section>
+
+    <section class="section">
+      <h2>Скачать приложение</h2>
+      <div class="buttons">
+        <a class="button" href="app.apk" download>📥 Скачать для Android (APK)</a>
+        <a class="button" href="https://example.web.app">🌐 Открыть веб-версию</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 LingoQuest. Все права защищены.
+  </footer>
+</body>
+</html>
